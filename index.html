@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en" class="dark"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutfhi — Creative Developer &amp; Designer</title>
+    <meta name="description" content="Portfolio of Lutfhi, a Gen Z creative developer with a passion for modern digital experiences, clean interfaces, and interactive products.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cursor Glow Canvas/Element -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Background Grid & Grain -->
+    <div class="bg-grain"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Ambient Glow Orbs -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar-container" id="navbar">
+        <nav class="navbar">
+            <a href="#" class="logo">Lutfhi<span class="dot">.</span></a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">
+                    Let’s Talk <i data-lucide="arrow-up-right"></i>
+                </a>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge badge-glow fade-in">
+                        <span class="status-dot"></span> Available for new opportunities
+                    </div>
+                    
+                    <h1 class="hero-title fade-in">
+                        Hi, I'm <span class="gradient-text">Lutfhi.</span><br>
+                        I build things that feel <span class="gradient-text-alt">different.</span>
+                    </h1>
+                    
+                    <p class="hero-description fade-in">
+                        Creative developer with a passion for building modern digital experiences, clean interfaces, and products people actually enjoy using.
+                    </p>
+                    
+                    <div class="hero-cta fade-in">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Let's Connect <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="social-links fade-in">
+                        <a href="https://github.com" target="_blank" aria-label="GitHub"><i data-lucide="github"></i><span>GitHub</span></a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i data-lucide="instagram"></i><span>Instagram</span></a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin"></i><span>LinkedIn</span></a>
+                        <a href="mailto:hello@lutfhi.dev" aria-label="Email"><i data-lucide="mail"></i><span>Email</span></a>
+                    </div>
+                </div>
+
+                <!-- 3D Orb Visual -->
+                <div class="hero-visual fade-in">
+                    <div class="orb-wrapper">
+                        <div class="glowing-orb"></div>
+                        <div class="orb-ring ring-1"></div>
+                        <div class="orb-ring ring-2"></div>
+                        <div class="orb-card glass-card">
+                            <i data-lucide="code-2" class="icon-cyan"></i>
+                            <div>
+                                <div class="card-label">Creative Tech</div>
+                                <div class="card-val">Interactive &amp; Fast</div>
+                            </div>
+                        </div>
+                        <div class="orb-card glass-card float-delayed">
+                            <i data-lucide="sparkles" class="icon-violet"></i>
+                            <div>
+                                <div class="card-label">UI/UX Craft</div>
+                                <div class="card-val">Pixel Perfect</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">A little about me<span class="dot">.</span></h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-col">
+                        <div class="image-frame glass-card">
+                            <div class="image-placeholder">
+                                <div class="avatar-glow"></div>
+                                <div class="avatar-initials">L</div>
+                                <div class="avatar-tag">Lutfhi • 2026</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-text-col">
+                        <p class="about-lead">
+                            I'm <strong class="text-gradient">Lutfhi</strong> — a creative-minded developer who loves turning ideas into digital experiences.
+                        </p>
+                        <p class="about-text">
+                            With a strong foundation at the intersection of design and engineering, I specialize in crafting fluid web interfaces, design systems, and engaging micro-interactions that elevate brand identities.
+                        </p>
+
+                        <div class="interests-tags">
+                            <span class="chip"><i data-lucide="globe"></i> Web Development</span>
+                            <span class="chip"><i data-lucide="layout"></i> UI/UX Design</span>
+                            <span class="chip"><i data-lucide="cpu"></i> Creative Technology</span>
+                            <span class="chip"><i data-lucide="box"></i> Digital Products</span>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-card glass-card">
+                                <span class="stat-num gradient-text">03+</span>
+                                <span class="stat-label">Years Learning</span>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <span class="stat-num gradient-text">20+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <span class="stat-num gradient-text">∞</span>
+                                <span class="stat-label">Ideas</span>
+                            </div>
+                        </div>
+
+                        <blockquote class="about-quote glass-card">
+                            <i data-lucide="quote" class="quote-icon"></i>
+                            <p>“Good design doesn't just look good. It makes people feel something.”</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <h2 class="section-title">Selected Works<span class="dot">.</span></h2>
+                        <p class="section-subtitle">A few things I've built, designed, and experimented with.</p>
+                    </div>
+                </div>
+
+                <div class="projects-list">
+                    <!-- Project 01 -->
+                    <article class="project-card glass-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-num">01</span>
+                                
+                            </div>
+                            
+                            
+                            <div class="project-tags">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="project-preview">
+                            <div class="preview-box box-1">
+                                <div class="preview-content">
+                                    
+                                    <h4>Lumora Experience</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 02 -->
+                    <article class="project-card glass-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-num">02</span>
+                                <span class="project-year">2025</span>
+                            </div>
+                            <h3 class="project-title">Nuvia</h3>
+                            <p class="project-desc">Minimal productivity platform designed for modern creators. Streamlined workflows, fluid task states, and focus modes.</p>
+                            <div class="project-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Figma</span>
+                            </div>
+                            <a href="#" class="project-link">Explore Project <i data-lucide="arrow-up-right"></i></a>
+                        </div>
+                        <div class="project-preview">
+                            <div class="preview-box box-2">
+                                <div class="preview-content">
+                                    <span class="preview-badge">SaaS Platform</span>
+                                    <h4>Nuvia Workspace</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 03 -->
+                    <article class="project-card glass-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-num">03</span>
+                                <span class="project-year">2025</span>
+                            </div>
+                            <h3 class="project-title">Vanta</h3>
+                            <p class="project-desc">Experimental interactive web experience with a futuristic visual identity, real-time shaders, and audio responsiveness.</p>
+                            <div class="project-tags">
+                                <span class="tag">Three.js</span>
+                                <span class="tag">GSAP</span>
+                                <span class="tag">WebGL</span>
+                            </div>
+                            <a href="#" class="project-link">Explore Project <i data-lucide="arrow-up-right"></i></a>
+                        </div>
+                        <div class="project-preview">
+                            <div class="preview-box box-3">
+                                <div class="preview-content">
+                                    <span class="preview-badge">WebGL Lab</span>
+                                    <h4>Vanta Interactive</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-cta">
+                    <a href="#" class="btn btn-secondary">
+                        View All Projects <i data-lucide="arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Things I work with<span class="dot">.</span></h2>
+                    <p class="section-subtitle">My tech stack, tools, and creative disciplines.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Development -->
+                    <div class="skill-category glass-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-blue"><i data-lucide="code"></i></div>
+                            <h3>Development</h3>
+                        </div>
+                        <div class="chips-group">
+                            <span class="skill-chip">HTML</span>
+                            <span class="skill-chip">CSS</span>
+                            <span class="skill-chip">JavaScript</span>
+                            <span class="skill-chip">TypeScript</span>
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                    <!-- Design -->
+                    <div class="skill-category glass-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-violet"><i data-lucide="figma"></i></div>
+                            
+                        </div>
+                        <div class="chips-group">
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                    <!-- Creative -->
+                    <div class="skill-category glass-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-cyan"><i data-lucide="palette"></i></div>
+                            <h3>Creative</h3>
+                        </div>
+                        <div class="chips-group">
+                            
+                            
+                            
+                            <span class="skill-chip">Digital Branding Video Editing Content Creation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE / JOURNEY SECTION -->
+        <section class="section journey-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My journey so far<span class="dot">.</span></h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-year">2026 — Present</span>
+                            <h3 class="timeline-title">Building Digital Experiences</h3>
+                            <p class="timeline-desc">Focusing on high-performance web apps, freelance design engineering, and experimenting with cutting-edge web technologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-year">2025</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="contact-card glass-card">
+                    <div class="contact-glow"></div>
+                    
+                    <h2 class="contact-title">Have an idea?<br><span class="gradient-text">Let's make it real.</span></h2>
+                    <p class="contact-subtitle">I'm always open to interesting projects, collaborations, and conversations.</p>
+
+                    <div class="contact-actions">
+                        <a href="mailto:hello@lutfhi.dev" class="btn btn-primary btn-lg">
+                            Say Hello <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact-email">
+                        <span>Direct Email:</span>
+                        <a href="mailto:yuyuiii571@gmail.com" class="email-link">yuyuiii571@gmail.com</a>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="https://github.com/k11513695-ui" target="_blank" class="social-chip">GitHub</a>
+                        <span class="sep">·</span>
+                        <a href="https://www.instagram.com/pororovy?" target="_blank" class="social-chip">Instagram</a>
+                        <span class="sep">·</span>
+                        <a href="https://linkedin.com" target="_blank" class="social-chip">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#" class="logo">Lutfhi<span class="dot">.</span></a>
+                <p>Designed &amp; built with curiosity by Lutfhi.</p>
+            </div>
+
+            <div class="footer-right">
+                <p class="copyright">© 2026 Lutfhi. All rights reserved.</p>
+                <a href="#home" class="back-to-top">Back to top <i data-lucide="arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body></html>
